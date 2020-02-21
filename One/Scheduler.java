@@ -22,17 +22,23 @@ public class Scheduler {
     
     public MedicalEngagement requestToBeSeen(MedicalEngagement m){
         System.out.println("Select a service provided or select unknown.");
-        //booean check
+       
+       if(true){
+        makeAppoitnmet();
+    }    
+        ServiceNeed.identifyNeed();
+
         if (true){
             makeAppoitnmet();
     }
-        else{ 
-          Survey survey1 = new survey();   
-
-    }
-    
+        else {
+            makeReferral();
+    }    
 
         return m;
-    }
 
+}
+
+    private void makeAppoitnmet() {
+    }
 }

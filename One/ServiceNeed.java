@@ -12,4 +12,8 @@ public class ServiceNeed {
     public void setServiceCode() {
         serviceCode = serviceCode;
     }
+
+    public void identifyNeed(){
+        
+    }
 }
